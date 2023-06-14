@@ -1,0 +1,104 @@
+{
+  "profile": [
+    {
+      "id": 0,
+      "login": "admin",
+      "password": "qwe123"
+    },
+    {
+      "id": 1,
+      "login": "anatolii",
+      "password": "qwe123QWERTY"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "Смартфоны",
+      "preview": "/images/phones/preview.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Аксессуары",
+      "preview": "/images/accessory/preview.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Умные устройства",
+      "preview": "/images/usage/preview.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Планшеты",
+      "preview": "/images/pads/preview.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "category": 0,
+      "categoryName": "Смартфон",
+      "preview": "/images/phones/phone-1.jpg",
+      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
+      "price": 4990
+    },
+    {
+      "id": 2,
+      "category": 2,
+      "categoryName": "Умные часы",
+      "preview": "/images/usage/usage-1.jpg",
+      "name": "Amazfit GTS 4 mini (черный)",
+      "price": 7490
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "categoryName": "Чехол",
+      "preview": "/images/accessory/accessory-1.jpg",
+      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
+      "price": 290
+    },
+    {
+      "id": 4,
+      "category": 3,
+      "categoryName": "Планшет",
+      "preview": "/images/pads/mi_pad_4.jpg",
+      "name": "Xiaomi MiPad 4 (серебристый)",
+      "price": 32000
+    }
+  ],
+  "cart": [
+    {
+      "user_id": 1,
+      "good_id": 0,
+      "count": 1,
+      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
+      "price": 4990,
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "good_id": 2,
+      "count": 1,
+      "name": "Amazfit GTS 4 mini (черный)",
+      "price": 7490,
+      "id": 2
+    },
+    {
+      "user_id": 0,
+      "good_id": 3,
+      "count": 1,
+      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
+      "price": 290,
+      "id": 3
+    },
+    {
+      "user_id": 0,
+      "good_id": 4,
+      "count": 1,
+      "name": "Xiaomi MiPad 4 (серебристый)",
+      "price": 32000,
+      "id": 4
+    }
+  ]
+}
